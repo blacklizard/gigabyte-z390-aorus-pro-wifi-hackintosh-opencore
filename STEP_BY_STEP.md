@@ -52,8 +52,8 @@ Compile latest opencore from source, at the time of writing, it's at version 0.5
 
 ### config.plist
 
-Use `config_usb.plist` for installation media
-Use `config.plist` for internal boot disk
+- Use `config_usb.plist` for installation media.
+- Use `config.plist` for internal boot disk.
 
 
 ## Post Install
