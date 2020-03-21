@@ -2,6 +2,8 @@
 
 ![System Info](images/system.png)
 
+### This guide is not intended for beginner
+
 ### Hardware
 
 Type|Item
