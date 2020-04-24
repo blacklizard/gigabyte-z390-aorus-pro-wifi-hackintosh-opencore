@@ -31,6 +31,10 @@ Type|Item
 
 [USBMAP.md](USBMAP.md)
 
+### Fixing CFG-Lock for Z390 AORUS PRO WIFI
+
+[DISABLING_CFG_LOCK.md](DISABLING_CFG_LOCK.md)
+
 ### What's Working/What's Not
 
 ##### Working
