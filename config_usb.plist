@@ -212,8 +212,10 @@
 				<string>USBInjectAll</string>
 				<key>Enabled</key>
 				<true/>
-				<key>MaxKernel</key>
+				<key>ExecutablePath</key>
 				<string>Contents/MacOS/USBInjectAll</string>
+				<key>MaxKernel</key>
+				<string></string>
 				<key>MinKernel</key>
 				<string></string>
 				<key>PlistPath</key>
