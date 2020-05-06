@@ -26,7 +26,7 @@ Follow Apple's instruction on how to use "createinstallmedia" command [https://s
 
 ## Opencore EFI
 
-Compile latest opencore from source, at the time of writing, it's at version 0.5.7
+At the time of writing, it's at version 0.5.8
 
 ### ACPI 
 - SSDT-EC-USBX.aml
@@ -35,20 +35,19 @@ Compile latest opencore from source, at the time of writing, it's at version 0.5
 - SSDT-PMC.aml
 
 ### Driver
-- VBoxHfs.efi
-- ApfsDriverLoader.efi
-- OpenRuntime.efi
+- [VBoxHfs.efi](https://github.com/acidanthera/AppleSupportPkg/releases/download/2.1.7/AppleSupport-2.1.7-RELEASE.zip)
+- [OpenRuntime.efi](https://github.com/acidanthera/OpenCorePkg/releases/download/0.5.8/OpenCore-0.5.8-RELEASE.zip)
 
 ### Kext
-- Lilu.kext
-- VirtualSMC.kext
-- WhateverGreen.kext
-- AppleALC.kext - Compile from source for latest version, it has fix for AppleHDA race condition
-- IntelMausi.kext
-- USBInjectAll.kext - Only needed for installation media
+- [Lilu.kext](https://github.com/acidanthera/Lilu/releases/download/1.4.4/Lilu-1.4.4-RELEASE.zip)
+- [VirtualSMC.kext](https://github.com/acidanthera/VirtualSMC/releases/download/1.1.3/VirtualSMC-1.1.3-RELEASE.zip)
+- [WhateverGreen.kext](https://github.com/acidanthera/WhateverGreen/releases/download/1.3.9/WhateverGreen-1.3.9-RELEASE.zip)
+- [AppleALC.kext](https://github.com/acidanthera/AppleALC/releases/download/1.4.9/AppleALC-1.4.9-RELEASE.zip)
+- [IntelMausi.kext](https://github.com/acidanthera/IntelMausi/releases/download/1.0.2/IntelMausi-1.0.2-RELEASE.zip)
+- [USBInjectAll.kext](https://bitbucket.org/RehabMan/os-x-usb-inject-all/downloads/RehabMan-USBInjectAll-2018-1108.zip) - Only needed for installation media
 - USBPorts.kext - Refer post installation
-- SMCProcessor.kext
-- SMCSuperIO.kext
+- [SMCProcessor.kext](https://github.com/acidanthera/VirtualSMC/releases/download/1.1.3/VirtualSMC-1.1.3-RELEASE.zip)
+- [SMCSuperIO.kext](https://github.com/acidanthera/VirtualSMC/releases/download/1.1.3/VirtualSMC-1.1.3-RELEASE.zip)
 
 ### config.plist
 
