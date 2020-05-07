@@ -26,7 +26,7 @@ Follow Apple's instruction on how to use "createinstallmedia" command [https://s
 
 ## Opencore EFI
 
-At the time of writing, it's at version 0.5.8
+At the time of writing, it's at version 0.5.8, Download 0.5.8 from [here](https://github.com/acidanthera/OpenCorePkg/releases/download/0.5.8/OpenCore-0.5.8-RELEASE.zip)
 
 ### ACPI 
 - SSDT-EC-USBX.aml
@@ -36,7 +36,7 @@ At the time of writing, it's at version 0.5.8
 
 ### Driver
 - [VBoxHfs.efi](https://github.com/acidanthera/AppleSupportPkg/releases/download/2.1.7/AppleSupport-2.1.7-RELEASE.zip)
-- [OpenRuntime.efi](https://github.com/acidanthera/OpenCorePkg/releases/download/0.5.8/OpenCore-0.5.8-RELEASE.zip)
+- OpenRuntime.efi - Included in OpenCore package
 
 ### Kext
 - [Lilu.kext](https://github.com/acidanthera/Lilu/releases/download/1.4.4/Lilu-1.4.4-RELEASE.zip)
@@ -46,13 +46,57 @@ At the time of writing, it's at version 0.5.8
 - [IntelMausi.kext](https://github.com/acidanthera/IntelMausi/releases/download/1.0.2/IntelMausi-1.0.2-RELEASE.zip)
 - [USBInjectAll.kext](https://bitbucket.org/RehabMan/os-x-usb-inject-all/downloads/RehabMan-USBInjectAll-2018-1108.zip) - Only needed for installation media
 - USBPorts.kext - Refer post installation
-- [SMCProcessor.kext](https://github.com/acidanthera/VirtualSMC/releases/download/1.1.3/VirtualSMC-1.1.3-RELEASE.zip)
-- [SMCSuperIO.kext](https://github.com/acidanthera/VirtualSMC/releases/download/1.1.3/VirtualSMC-1.1.3-RELEASE.zip)
+- SMCProcessor.kext - Included in VirtualSMC package
+- SMCSuperIO.kext - Included in VirtualSMC package
+
+### Tools
+- [modGRUBShell.efi](https://github.com/datasone/grub-mod-setup_var/releases/download/1.1/modGRUBShell.efi)
+- OpenShell.efi - Included in OpenCore package
+- ResetSystem.efi - Included in OpenCore package
 
 ### config.plist
 
 - Use `config_usb.plist` for installation media.
 - Use `config.plist` for internal boot disk.
+
+### Folder Structure of EFI
+
+```
+EFI
+├── BOOT
+│   └── BOOTx64.efi
+└── OC
+    ├── ACPI
+    │   ├── SSDT-EC-USBX.aml
+    │   ├── SSDT-HPET.aml
+    │   ├── SSDT-PLUG.aml
+    │   └── SSDT-PMC.aml
+    ├── Bootstrap
+    │   └── Bootstrap.efi
+    ├── Drivers
+    │   ├── OpenRuntime.efi
+    │   └── VBoxHfs.efi
+    ├── Kexts
+    │   ├── AppleALC.kext
+    │   ├── IntelMausi.kext
+    │   ├── Lilu.kext
+    │   ├── SMCProcessor.kext
+    │   ├── SMCSuperIO.kext
+    │   ├── USBPorts.kext
+    │   ├── VirtualSMC.kext
+    │   └── WhateverGreen.kext
+    ├── OpenCore.efi
+    ├── Resources
+    │   ├── Audio
+    │   ├── Font
+    │   ├── Image
+    │   └── Label
+    ├── Tools
+    │   ├── OpenShell.efi
+    │   ├── ResetSystem.efi
+    │   └── modGRUBShell.efi
+    └── config.plist
+```
 
 
 ## Post Install
