@@ -19,22 +19,6 @@
 DefinitionBlock ("", "SSDT", 2, "ACDT", "SsdtEC", 0x00001000)
 {
     External (_SB_.PCI0.LPCB, DeviceObj)
-    External (_SB_.PCI0.LPCB.H_EC, DeviceObj)
-
-    Scope (\_SB.PCI0.LPCB.H_EC)
-    {
-        Method (_STA, 0, NotSerialized)  // _STA: Status
-        {
-            If (_OSI ("Darwin"))
-            {
-                Return (Zero)
-            }
-            Else
-            {
-                Return (0x0F)
-            }
-        }
-    }
 
     Scope (\_SB)
     {

@@ -57,6 +57,7 @@ Type|Item
 - Airdrop
 - Continuity
 - AirPlay
+- Apple TV+ - Only works on monitor that is connected via **DP**
 - Netflix in Safari - Monitor **MUST** be connected via **DP**, for multi monitor setup, **ALL** monitor **MUST** be connected via **DP**. **DO NOT USE HDMI**
 
 ##### Not Tested
