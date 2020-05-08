@@ -67,7 +67,6 @@ EFI
 └── OC
     ├── ACPI
     │   ├── SSDT-EC-USBX.aml
-    │   ├── SSDT-HPET.aml
     │   ├── SSDT-PLUG.aml
     │   └── SSDT-PMC.aml
     ├── Bootstrap
