@@ -111,5 +111,5 @@ Follow this guide: [https://www.tonymacx86.com/threads/the-new-beginners-guide-t
 
 ```
 sudo pmset hibernatemode 0
-sudo pmset proximity 0
+sudo pmset proximitywake 0
 ```
