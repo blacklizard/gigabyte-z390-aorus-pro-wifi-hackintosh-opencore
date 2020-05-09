@@ -92,6 +92,7 @@ EFI
     │   ├── Image
     │   └── Label
     ├── Tools
+    │   ├── CleanNvram.efi
     │   ├── OpenShell.efi
     │   ├── ResetSystem.efi
     │   └── modGRUBShell.efi
