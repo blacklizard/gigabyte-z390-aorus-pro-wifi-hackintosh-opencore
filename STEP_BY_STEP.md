@@ -31,6 +31,7 @@ At the time of writing, it's at version 0.5.8, Download 0.5.8 from [here](https:
 ### ACPI 
 - SSDT-EC-USBX.aml
 - SSDT-PLUG.aml
+- SSDT-HPET.aml
 - SSDT-PMC.aml
 
 ### Driver
@@ -68,6 +69,7 @@ EFI
     ├── ACPI
     │   ├── SSDT-EC-USBX.aml
     │   ├── SSDT-PLUG.aml
+    │   ├── SSDT-HPET.aml
     │   └── SSDT-PMC.aml
     ├── Bootstrap
     │   └── Bootstrap.efi
