@@ -13,7 +13,7 @@
 - HS09 / SS09 - Front USB 3.1 Gen 1 Port
 - HS10 / SS10 - Front USB 3.1 Gen 1 Port
 - HS11 - Internal USB 2.0 #1 and #2
-- HS12 - Unknown 
+- HS12 - IT8297 - RGB Controller 
 - HS13 - Rear USB 2.0 (All 4 ports)
 - HS14 - Unknown (Bluetooth ?)
 - USR1 - Unknown
@@ -30,7 +30,7 @@
 - HS09 / SS09 - Front USB 3.1 Gen 1 Port
 - HS10 / SS10 - Front USB 3.1 Gen 1 Port
 - HS11 - Internal USB 2.0 #1 and #2
-- HS12 - Unknown 
+- HS12 - IT8297 - RGB Controller  
 - HS13 - Rear USB 2.0 (All 4 ports)
 
 Total of 15 ports, matching Apple's 15 port limit
