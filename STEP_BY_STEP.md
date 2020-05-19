@@ -16,7 +16,7 @@ BIOS version: `F11`
 - Settings -> Trusted Computing -> Security Device Support -> Disabled
 - Boot -> CSM Support -> Disabled
 
-Turn of MB led using modGRUBShell, same as disabling CFG lock
+Turn off MB led using modGRUBShell, same as disabling CFG lock
 
 ```
 setup_var 0x16FE 0x00
