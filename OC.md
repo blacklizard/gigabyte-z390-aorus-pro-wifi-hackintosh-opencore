@@ -11,6 +11,8 @@ Download OpenCore0.5.9 **RELEASE** from [here](https://github.com/acidanthera/Op
 ## Driver
 - [HfsPlus.efi](https://github.com/acidanthera/OcBinaryData/blob/master/Drivers/HfsPlus.efi)
 - OpenRuntime.efi - Included in OpenCore package
+- OpenCanopy.efi - Included in OpenCore package
+- AudioDxe.efi - Included in OpenCore package
 
 ## Kext - Make sure to download RELEASE version
 - [Lilu.kext](https://github.com/acidanthera/Lilu/releases/latest)
