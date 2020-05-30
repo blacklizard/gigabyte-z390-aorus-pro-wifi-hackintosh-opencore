@@ -9,15 +9,15 @@ Download OpenCore0.5.9 **RELEASE** from [here](https://github.com/acidanthera/Op
 - SSDT-PMC.aml
 
 ## Driver
-- [HfsPlus.efi](https://github.com/acidanthera/OcBinaryData/blob/master/Drivers/HfsPlus.efi)
+- [HfsPlus.efi](https://github.com/acidanthera/OcBinaryData/raw/master/Drivers/HfsPlus.efi)
 - OpenRuntime.efi - Included in OpenCore package
 
 ## Kext - Make sure to download RELEASE version
-- [Lilu.kext](https://github.com/acidanthera/Lilu/releases/latest)
-- [VirtualSMC.kext](https://github.com/acidanthera/VirtualSMC/releases/latest)
-- [WhateverGreen.kext](https://github.com/acidanthera/WhateverGreen/releases/latest)
-- [AppleALC.kext](https://github.com/acidanthera/AppleALC/releases/latest)
-- [IntelMausi.kext](https://github.com/acidanthera/IntelMausi/releases/latest)
+- [Lilu.kext](https://github.com/acidanthera/Lilu/releases/download/1.4.4/Lilu-1.4.4-RELEASE.zip)
+- [VirtualSMC.kext](https://github.com/acidanthera/VirtualSMC/releases/download/1.1.4/VirtualSMC-1.1.4-RELEASE.zip)
+- [WhateverGreen.kext](https://github.com/acidanthera/WhateverGreen/releases/download/1.4.0/WhateverGreen-1.4.0-RELEASE.zip)
+- [AppleALC.kext](https://github.com/acidanthera/AppleALC/releases/download/1.5.0/AppleALC-1.5.0-RELEASE.zip)
+- [IntelMausi.kext](https://github.com/acidanthera/IntelMausi/releases/download/1.0.3/IntelMausi-1.0.3-RELEASE.zip)
 - [USBInjectAll.kext](https://bitbucket.org/RehabMan/os-x-usb-inject-all/downloads/RehabMan-USBInjectAll-2018-1108.zip) - Only needed for installation media
 - USBPorts.kext - [Refer post installation](POST_INSTALL.md)
 - SMCProcessor.kext - Included in VirtualSMC package
