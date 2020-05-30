@@ -35,14 +35,6 @@ Please understand all OpenCore configuration by reading [Configuration.pdf](http
 3. [OpenCore EFI](OC.md)
 4. [Post Installation](POST_INSTALL.md)
 
-### USB Configuration
-
-[USBMAP.md](USBMAP.md)
-
-### Fixing CFG-Lock for Z390 AORUS PRO WIFI
-
-[DISABLING_CFG_LOCK.md](DISABLING_CFG_LOCK.md)
-
 ### What's Working/What's Not
 
 ##### Working

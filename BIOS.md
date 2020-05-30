@@ -21,13 +21,15 @@ The modified variables will reset itself when you restore / revert to optimised 
 Everytime BIOS is reset, you will need to reconfigure the hidden setting or else you will not be able to boot, you have been warned
 
 #### Required setting
-- Disable CFG Lock\
+- Disable CFG Lock
+
 | Firmware Version | Command              |
 |------------------|----------------------|
 | 11 & 12c         |`setup_var 0x5C1 0x00`|
 
 #### Optional Setting
-- Turn off motherboard LED\
+- Turn off motherboard LED
+
 | Firmware Version | Command               |
 |------------------|-----------------------|
 | 11               |`setup_var 0x16FE 0x00`|
