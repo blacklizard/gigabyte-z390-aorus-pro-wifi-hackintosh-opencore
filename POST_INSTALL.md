@@ -5,6 +5,10 @@ Follow this guide: [https://www.tonymacx86.com/threads/the-new-beginners-guide-t
 
 - [USBMAP.md](USBMAP.md) 
 
+#### TL;DR 
+> The physical port is the same, but how it is enumerated is different depending on what type of device is plugged-in - USB2.0 is an HS\*\* port and USB3.0/3.1 is an SS\*\* port. So as you can see, a single, physical USB3 port counts as 2x ports towards our 15-limit because either type of device can be plugged in to it.
+>
+> UtterDisbelief
 
 ## For sleep to work properly
 
