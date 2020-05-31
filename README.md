@@ -35,6 +35,9 @@ Please understand all OpenCore configuration by reading [Configuration.pdf](http
 3. [OpenCore EFI](OC.md)
 4. [Post Installation](POST_INSTALL.md)
 
+### Extras
+1. [BCM943602CS WIN10 BT/WiFi Driver](https://mega.nz/file/h5ozUZCS#XVszB3yWDcyhaNxahbMWJLiEmnmGpqbuAnahyGDdv7Y)
+
 ### What's Working/What's Not
 
 ##### Working
