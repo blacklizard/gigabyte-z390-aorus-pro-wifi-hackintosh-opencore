@@ -15,7 +15,7 @@ Download OpenCore0.5.9 **RELEASE** from [here](https://github.com/acidanthera/Op
 - AudioDxe.efi - Included in OpenCore package
 
 ## Kext - Make sure to download RELEASE version
-- [Lilu.kext](https://github.com/acidanthera/Lilu/releases/download/1.4.4/Lilu-1.4.4-RELEASE.zip)
+- [Lilu.kext](https://github.com/acidanthera/Lilu/releases/download/1.4.5/Lilu-1.4.5-RELEASE.zip)
 - [VirtualSMC.kext](https://github.com/acidanthera/VirtualSMC/releases/download/1.1.4/VirtualSMC-1.1.4-RELEASE.zip)
 - [WhateverGreen.kext](https://github.com/acidanthera/WhateverGreen/releases/download/1.4.0/WhateverGreen-1.4.0-RELEASE.zip)
 - [AppleALC.kext](https://github.com/acidanthera/AppleALC/releases/download/1.5.0/AppleALC-1.5.0-RELEASE.zip)
