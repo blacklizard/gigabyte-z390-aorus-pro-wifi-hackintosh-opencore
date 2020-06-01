@@ -1,8 +1,8 @@
-# Hackintosh Opencore 0.5.8 Installation Guide for Gigabyte Z390 Aorus Pro WiFi - Catalina(>=10.15.2) 
+# Hackintosh Opencore 0.5.9 Installation Guide for Gigabyte Z390 Aorus Pro WiFi - Catalina(>=10.15.2) 
 
 ![System Info](images/system.png)
 
-### This guide is not intended for beginner
+### This guide is not intended for beginner, you have been warned. No support is provided unless there is a valid issue. Please read everything before starting
 
 ### Hardware
 
@@ -21,19 +21,22 @@ Type|Item
 **Monitor 1** | [DELL U2718Q](https://www.dell.com/si/business/p/dell-u2718q-monitor/pd)
 **Monitor 2** | [DELL U2720Q](https://www.dell.com/en-my/shop/ultrasharp-27-4k-usb-c-monitor-u2720q/apd/210-auzy/monitors-monitor-accessories)
 
+### Prerequisite 
+Please understand all OpenCore configuration by reading [Configuration.pdf](https://github.com/acidanthera/OpenCorePkg/blob/0.5.9/Docs/Configuration.pdf) 
 
+### Required Tools
+- [GenSMBIOS](https://github.com/corpnewt/GenSMBIOS)
+- [EFI-Agent](https://github.com/headkaze/EFI-Agent)
+- [Hackintool](https://github.com/headkaze/Hackintool)
 
 ### Step By Step Installation Guide
+1. [BIOS configuration](BIOS.md)
+2. [macOS installation media](INSTALLER.md)
+3. [OpenCore EFI](OC.md)
+4. [Post Installation](POST_INSTALL.md)
 
-[STEP_BY_STEP.md](STEP_BY_STEP.md)
-
-### USB Configuration
-
-[USBMAP.md](USBMAP.md)
-
-### Fixing CFG-Lock for Z390 AORUS PRO WIFI
-
-[DISABLING_CFG_LOCK.md](DISABLING_CFG_LOCK.md)
+### Extras
+1. [BCM943602CS WIN10 BT/WiFi Driver](https://mega.nz/file/h5ozUZCS#XVszB3yWDcyhaNxahbMWJLiEmnmGpqbuAnahyGDdv7Y)
 
 ### What's Working/What's Not
 
@@ -57,7 +60,7 @@ Type|Item
 - Airdrop
 - Continuity
 - AirPlay
-- Apple TV+ - Only works on monitor that is connected via **DP**
+- Apple TV+ - Only works on monitor@**DP**
 - Netflix in Safari - Monitor **MUST** be connected via **DP**, for multi monitor setup, **ALL** monitor **MUST** be connected via **DP**. **DO NOT USE HDMI**
 
 ##### Not Tested
