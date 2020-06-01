@@ -109,8 +109,6 @@ EFI
     │   ├── Audio
     │   │   └── *.wav
     │   ├── Font
-    │   │   ├── Font.bin
-    │   │   ├── Font.png
     │   │   ├── Font_1x.bin
     │   │   ├── Font_1x.png
     │   │   ├── Font_2x.bin
