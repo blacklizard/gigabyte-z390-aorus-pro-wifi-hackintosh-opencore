@@ -2,7 +2,7 @@
 
 #### All Available USB Ports
 
-- HS01 / SS01 - Unknown (Font USB-C ?)
+- HS01 / SS01 - Font USB-C Header
 - HS02 / SS02 - Unknown
 - HS03 / SS03 - Rear USB 3.1 Gen 2 Type-A Port(Red)
 - HS04 / SS04 - Rear USB 3.1 Gen 1 Port
