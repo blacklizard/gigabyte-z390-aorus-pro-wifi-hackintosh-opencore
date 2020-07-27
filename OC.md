@@ -1,6 +1,6 @@
 # OpenCore EFI
 
-Download OpenCore0.5.9 **RELEASE** from [here](https://github.com/acidanthera/OpenCorePkg/releases/download/0.5.9/OpenCore-0.5.9-RELEASE.zip)
+Download OpenCore0.6.0 **RELEASE** from [here](https://github.com/acidanthera/OpenCorePkg/releases/download/0.6.0/OpenCore-0.6.0-RELEASE.zip)
 
 ## ACPI 
 - SSDT-EC-USBX.aml
