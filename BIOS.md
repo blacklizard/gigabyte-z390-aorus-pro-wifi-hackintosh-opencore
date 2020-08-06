@@ -25,7 +25,7 @@ Everytime BIOS is reset, you will need to reconfigure the hidden setting or else
 
 | Firmware Version | Command              |
 |------------------|----------------------|
-| 11 & 12c         |`setup_var 0x5C1 0x00`|
+| F9, F10, F11 & F12c         |`setup_var 0x5C1 0x00`|
 
 #### Optional Setting
 - Turn off motherboard LED
