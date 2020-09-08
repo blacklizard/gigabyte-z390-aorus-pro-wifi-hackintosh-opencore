@@ -1,6 +1,6 @@
-# Hackintosh Opencore 0.6.1 Installation Guide for Gigabyte Z390 Aorus Pro WiFi - Catalina(>=10.15.2) 
+# Hackintosh Opencore 0.6.1 for Gigabyte Z390 Aorus Pro WiFi - macOS(>=10.15.2) 
 
-![System Info](images/system.png)
+![System Info](images/system_bigsur.png)
 
 ### This guide is not intended for beginner, you have been warned. No support is provided unless there is a valid issue. Please read everything before starting
 
