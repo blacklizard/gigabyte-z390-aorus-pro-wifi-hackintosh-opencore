@@ -3,15 +3,15 @@
 BIOS version: `F11`
 
 - Load Optimized Defaults
-- Settings -> Internal Graphics -> Enabled
-- Settings -> DVMT Pre-Allocated -> 32M
-- Settings -> Wi-Fi -> Disabled
-- Settings -> Above 4G Decoding -> Enabled
-- Settings -> Wake on LAN Enable -> Disabled
-- Settings -> USB Configuration -> Legacy USB Support -> Disabled
-- Settings -> USB Configuration -> XHCI Hand-off -> Enabled
-- Settings -> Software Guard Extensions(SGX) -> Disabled
-- Settings -> Trusted Computing -> Security Device Support -> Disabled
+- Settings -> IO Ports -> Internal Graphics -> Enabled
+- Settings -> IO Ports -> DVMT Pre-Allocated -> 32M
+- Settings -> IO Ports -> Wi-Fi -> Disabled
+- Settings -> IO Ports -> Above 4G Decoding -> Enabled
+- Settings -> IO Ports -> Wake on LAN Enable -> Disabled
+- Settings -> IO Ports -> USB Configuration -> Legacy USB Support -> Disabled
+- Settings -> IO Ports -> USB Configuration -> XHCI Hand-off -> Enabled
+- Settings -> Miscellaneous -> Software Guard Extensions(SGX) -> Disabled
+- Settings -> Miscellaneous -> Trusted Computing -> Security Device Support -> Disabled
 - Boot -> CSM Support -> Disabled
 
 ## Hidden BIOS setting
@@ -25,7 +25,7 @@ Everytime BIOS is reset, you will need to reconfigure the hidden setting or else
 
 | Firmware Version | Command              |
 |------------------|----------------------|
-| 11 & 12c         |`setup_var 0x5C1 0x00`|
+| F9, F10, F11 & F12c         |`setup_var 0x5C1 0x00`|
 
 #### Optional Setting
 - Turn off motherboard LED
