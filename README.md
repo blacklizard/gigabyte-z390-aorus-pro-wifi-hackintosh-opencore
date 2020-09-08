@@ -1,6 +1,6 @@
 # Hackintosh Opencore 0.6.1 for Gigabyte Z390 Aorus Pro WiFi - macOS(>=10.15.2) 
 
-![System Info](images/system.png)
+![System Info](images/system_bigsur.png)
 
 ### This guide is not intended for beginner, you have been warned. No support is provided unless there is a valid issue. Please read everything before starting
 
@@ -60,8 +60,8 @@ Please understand all OpenCore configuration by reading [Configuration.pdf](http
 - Airdrop
 - Continuity
 - AirPlay
-- Apple TV+ - Only works on monitor@**DP**
-- Netflix in Safari - Monitor **MUST** be connected via **DP**, for multi monitor setup, **ALL** monitor **MUST** be connected via **DP**. **DO NOT USE HDMI**
+- Apple TV+ - Only works on monitor@**DP** (Only on Catalina)
+- Netflix in Safari - Monitor **MUST** be connected via **DP**, for multi monitor setup, **ALL** monitor **MUST** be connected via **DP**. **DO NOT USE HDMI** (Only on Catalina)
 
 ##### Not Tested
 - FileVault
