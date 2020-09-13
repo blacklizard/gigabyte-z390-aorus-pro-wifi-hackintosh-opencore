@@ -38,6 +38,15 @@ Please understand all OpenCore configuration by reading [Configuration.pdf](http
 ### Extras
 1. [BCM943602CS WIN10 BT/WiFi Driver](https://mega.nz/file/h5ozUZCS#XVszB3yWDcyhaNxahbMWJLiEmnmGpqbuAnahyGDdv7Y)
 
+### DRM
+- iTunes Trailers - Software FairPlay 1.0
+- iTunes Movies - Software FairPlay 1.0 - HDCP*
+- TV+ - Hardware FairPlay 4.0 - HDCP*
+- Prime Trailers - Hardware FairPlay 2.0/3.0 - HDCP*
+- Prime/Netflix - Hardware FairPlay 2.0/3.0 - HDCP*
+
+***HDCP**** - *All display must be connected via DP*
+
 ### What's Working/What's Not
 
 ##### Working
@@ -60,8 +69,8 @@ Please understand all OpenCore configuration by reading [Configuration.pdf](http
 - Airdrop
 - Continuity
 - AirPlay
-- Apple TV+ - Only works on monitor@**DP** (Only on Catalina)
-- Netflix in Safari - Monitor **MUST** be connected via **DP**, for multi monitor setup, **ALL** monitor **MUST** be connected via **DP**. **DO NOT USE HDMI** (Only on Catalina)
+- Apple TV+ (Only on Catalina)
+- Netflix/Prime in Safari - (Only on Catalina)
 
 ##### Not Tested
 - FileVault
