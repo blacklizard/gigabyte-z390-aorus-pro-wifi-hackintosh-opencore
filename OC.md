@@ -1,6 +1,6 @@
 # OpenCore EFI
 
-Download OpenCore 0.6.1 **RELEASE** from [here](https://github.com/acidanthera/OpenCorePkg/releases/download/0.6.1/OpenCore-0.6.1-RELEASE.zip)
+Download OpenCore 0.6.2 **RELEASE** from [here](https://github.com/acidanthera/OpenCorePkg/releases/download/0.6.2/OpenCore-0.6.2-RELEASE.zip)
 
 ## ACPI 
 - SSDT-EC-USBX.aml
@@ -13,10 +13,10 @@ Download OpenCore 0.6.1 **RELEASE** from [here](https://github.com/acidanthera/O
 - OpenRuntime.efi - Included in OpenCore package
 
 ## Kext - Make sure to download RELEASE version
-- [Lilu.kext](https://github.com/acidanthera/Lilu/releases/download/1.4.7/Lilu-1.4.7-RELEASE.zip)
-- [VirtualSMC.kext](https://github.com/acidanthera/VirtualSMC/releases/download/1.1.6/VirtualSMC-1.1.6-RELEASE.zip)
-- [WhateverGreen.kext](https://github.com/acidanthera/WhateverGreen/releases/download/1.4.2/WhateverGreen-1.4.2-RELEASE.zip)
-- [AppleALC.kext](https://github.com/acidanthera/AppleALC/releases/download/1.5.2/AppleALC-1.5.2-RELEASE.zip)
+- [Lilu.kext](https://github.com/acidanthera/Lilu/releases/download/1.4.8/Lilu-1.4.8-RELEASE.zip)
+- [VirtualSMC.kext](https://github.com/acidanthera/VirtualSMC/releases/download/1.1.7/VirtualSMC-1.1.7-RELEASE.zip)
+- [WhateverGreen.kext](https://github.com/acidanthera/WhateverGreen/releases/download/1.4.3/WhateverGreen-1.4.3-RELEASE.zip)
+- [AppleALC.kext](https://github.com/acidanthera/AppleALC/releases/download/1.5.3/AppleALC-1.5.3-RELEASE.zip)
 - [IntelMausi.kext](https://github.com/acidanthera/IntelMausi/releases/download/1.0.3/IntelMausi-1.0.3-RELEASE.zip)
 - [USBInjectAll.kext](https://bitbucket.org/RehabMan/os-x-usb-inject-all/downloads/RehabMan-USBInjectAll-2018-1108.zip) - Only needed for installation media
 - USBPorts.kext - [Refer post installation](POST_INSTALL.md)
