@@ -69,8 +69,8 @@ Please understand all OpenCore configuration by reading [Configuration.pdf](http
 - Airdrop
 - Continuity
 - AirPlay
-- Apple TV+ (Only on Catalina)
-- Netflix/Prime in Safari - (Only on Catalina)
+- Apple TV+ (Only on Catalina, Safari 13)
+- Netflix/Prime in Safari - (Only on Catalina, , Safari 13)
 
 ##### Not Tested
 - FileVault
