@@ -22,7 +22,7 @@ Type|Item
 **Monitor 2** | [DELL U2720Q](https://www.dell.com/en-my/shop/ultrasharp-27-4k-usb-c-monitor-u2720q/apd/210-auzy/monitors-monitor-accessories)
 
 ### Prerequisite 
-Please understand all OpenCore configuration by reading [Configuration.pdf](https://github.com/acidanthera/OpenCorePkg/blob/0.6.1/Docs/Configuration.pdf) 
+Please understand all OpenCore configuration by reading [Configuration.pdf](https://github.com/acidanthera/OpenCorePkg/blob/master/Docs/Configuration.pdf) 
 
 ### Required Tools
 - [GenSMBIOS](https://github.com/corpnewt/GenSMBIOS)
