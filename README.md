@@ -76,6 +76,4 @@ Please understand all OpenCore configuration by reading [Configuration.pdf](http
 ##### Not Tested
 - FileVault
 - Power Nap
-
-##### Not Working
-- Built-in WiFi and Bluetooth. This will never work, dont even waste time here. If you absolutely need Bluetooth and WiFi, get the BCM94360CS2 card.
+- Built-in WiFi and Bluetooth. May work with [itlwm](https://openintelwireless.github.io/). If you need stable WiFi+BT, use native apple card
