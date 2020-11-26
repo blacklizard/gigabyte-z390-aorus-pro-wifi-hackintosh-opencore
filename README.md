@@ -37,7 +37,7 @@ Please understand all OpenCore configuration by reading [Configuration.pdf](http
 
 ### Extras
 #### Build-in HDMI as main display(without dGPU)
-Use this for `DeviceProperties`
+Use this for `DeviceProperties`. Be sure to remove `agdpmod=pikera` from `boot-args`
 ```
 <key>PciRoot(0x0)/Pci(0x2,0x0)</key>
 <dict>
@@ -52,7 +52,7 @@ Use this for `DeviceProperties`
 	<key>framebuffer-con2-enable</key>
 	<data>AQAAAA==</data>
 	<key>framebuffer-con2-alldata</key>
-	<data>AwQIAAAIAADHAwAA</data>
+	<data>AwQKAAAIAACHAQAA</data>
 </dict>
 ```
 #### BCM943602CS WIN10 BT/WiFi Driver
