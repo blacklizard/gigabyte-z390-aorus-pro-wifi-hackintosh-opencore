@@ -4,7 +4,7 @@ BIOS version: `F12j`
 
 - Load Optimized Defaults
 - Settings -> IO Ports -> Internal Graphics -> Enabled
-- Settings -> IO Ports -> DVMT Pre-Allocated -> 32M
+- Settings -> IO Ports -> DVMT Pre-Allocated -> 64M
 - Settings -> IO Ports -> Wi-Fi -> Disabled
 - Settings -> IO Ports -> Above 4G Decoding -> Enabled
 - Settings -> IO Ports -> Wake on LAN Enable -> Disabled
