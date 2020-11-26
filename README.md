@@ -1,7 +1,9 @@
 # Hackintosh Opencore 0.6.3 for Gigabyte Z390 Aorus Pro WiFi - macOS(>=10.15.2) 
 
 ![System Info](images/system_bigsur_11.0.1.1605466648.png)
+![System Info](images/system_big_sur_igpu.png)
 ![System Info](images/system_catalina_10.15.7.1605466648.png)
+![System Info](images/system_catalina_igpu.png)
 
 ### This guide is not intended for beginner, you have been warned. No support is provided unless there is a valid issue. Please read everything before starting
 
@@ -37,7 +39,27 @@ Please understand all OpenCore configuration by reading [Configuration.pdf](http
 4. [Post Installation](POST_INSTALL.md)
 
 ### Extras
-1. [BCM943602CS WIN10 BT/WiFi Driver](https://mega.nz/file/h5ozUZCS#XVszB3yWDcyhaNxahbMWJLiEmnmGpqbuAnahyGDdv7Y)
+#### Build-in HDMI as main display(without dGPU)
+Use this for `DeviceProperties`
+```
+<key>PciRoot(0x0)/Pci(0x2,0x0)</key>
+<dict>
+	<key>AAPL,ig-platform-id</key>
+	<data>AACbPg==</data>
+	<key>framebuffer-patch-enable</key>
+	<data>AQAAAA==</data>
+	<key>framebuffer-con0-enable</key>
+	<data>AAAAAA==</data>
+	<key>framebuffer-con1-enable</key>
+	<data>AAAAAA==</data>
+	<key>framebuffer-con2-enable</key>
+	<data>AQAAAA==</data>
+	<key>framebuffer-con2-alldata</key>
+	<data>AwQIAAAIAADHAwAA</data>
+</dict>
+```
+#### BCM943602CS WIN10 BT/WiFi Driver
+[BCM943602CS WIN10 BT/WiFi Driver](https://mega.nz/file/h5ozUZCS#XVszB3yWDcyhaNxahbMWJLiEmnmGpqbuAnahyGDdv7Y)
 
 ### DRM
 - iTunes Trailers - Software FairPlay 1.0
@@ -56,6 +78,7 @@ Please understand all OpenCore configuration by reading [Configuration.pdf](http
 - HDMI Audio
 - DP Audio
 - IGPU in headless mode
+- IGPU as main display output
 - App Store
 - Wake/Sleep
 - Restart
