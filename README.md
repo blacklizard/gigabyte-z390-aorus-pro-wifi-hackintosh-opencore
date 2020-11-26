@@ -59,7 +59,7 @@ Use this for `DeviceProperties`
 </dict>
 ```
 #### BCM943602CS WIN10 BT/WiFi Driver
-[BCM943602CS WIN10 BT/WiFi Driver](https://mega.nz/file/h5ozUZCS#XVszB3yWDcyhaNxahbMWJLiEmnmGpqbuAnahyGDdv7Y)
+- [BCM943602CS WIN10 BT/WiFi Driver](https://mega.nz/file/h5ozUZCS#XVszB3yWDcyhaNxahbMWJLiEmnmGpqbuAnahyGDdv7Y)
 
 ### DRM
 - iTunes Trailers - Software FairPlay 1.0
