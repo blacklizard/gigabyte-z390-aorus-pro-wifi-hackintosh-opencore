@@ -1,6 +1,6 @@
 # Hackintosh Opencore 0.6.3 for Gigabyte Z390 Aorus Pro WiFi - macOS(>=10.15.2) 
 
-![System Info](images/hackintosh_system.png)
+![System Info](images/hackintosh_combi_1606811274.png)
 
 ### This guide is not intended for beginner, you have been warned. No support is provided unless there is a valid issue. Please read everything before starting
 
@@ -37,7 +37,7 @@ Please understand all OpenCore configuration by reading [Configuration.pdf](http
 
 ### Extras
 #### Build-in HDMI as main display(without dGPU)
-Use this for `DeviceProperties`. Be sure to remove `agdpmod=pikera` from `boot-args`
+Use this for `DeviceProperties`. Be sure to remove `agdpmod=pikera` from `boot-args` and add `igfxonln=1` to fix wake from sleep issue
 ```
 <key>PciRoot(0x0)/Pci(0x2,0x0)</key>
 <dict>
