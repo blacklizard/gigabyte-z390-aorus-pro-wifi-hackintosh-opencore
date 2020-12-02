@@ -1,6 +1,11 @@
-# Hackintosh Opencore 0.6.3 for Gigabyte Z390 Aorus Pro WiFi - macOS(>=10.15.2) 
+# Hackintosh Opencore 0.6.4 for Gigabyte Z390 Aorus Pro WiFi - macOS(>=10.15.2) 
 
+<<<<<<< HEAD
 ![System Info](images/hackintosh_combi_1606811274.png)
+=======
+![System Info](images/system_bigsur_11.1.BETA.1605466648.png)
+![System Info](images/system_catalina_10.15.7.1605466648.png)
+>>>>>>> oc-0.6.4
 
 ### This guide is not intended for beginner, you have been warned. No support is provided unless there is a valid issue. Please read everything before starting
 
@@ -96,6 +101,4 @@ Use this for `DeviceProperties`. Be sure to remove `agdpmod=pikera` from `boot-a
 ##### Not Tested
 - FileVault
 - Power Nap
-
-##### Not Working
-- Built-in WiFi and Bluetooth. This will never work, dont even waste time here. If you absolutely need Bluetooth and WiFi, get the BCM94360CS2 card.
+- Built-in WiFi and Bluetooth. May work with [itlwm](https://openintelwireless.github.io/). If you need stable WiFi+BT, use native apple card

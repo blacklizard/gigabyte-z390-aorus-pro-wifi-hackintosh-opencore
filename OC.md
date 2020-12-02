@@ -19,6 +19,7 @@ Download OpenCore **RELEASE** from [here](https://github.com/acidanthera/OpenCor
 - [WhateverGreen.kext](https://github.com/acidanthera/WhateverGreen/releases/latest)
 - [AppleALC.kext](https://github.com/acidanthera/AppleALC/releases/latest)
 - [IntelMausi.kext](https://github.com/acidanthera/IntelMausi/releases/latest)
+- [NVMeFix.kext](https://github.com/acidanthera/NVMeFix/releases/latest)
 - [USBInjectAll.kext](https://bitbucket.org/RehabMan/os-x-usb-inject-all/downloads/RehabMan-USBInjectAll-2018-1108.zip) - Only needed for installation media
 - USBPorts.kext - [Refer post installation](POST_INSTALL.md)
 - SMCProcessor.kext - Included in VirtualSMC package
@@ -61,6 +62,7 @@ EFI
     │   ├── SMCSuperIO.kext
     │   ├── USBInjectAll.kext
     │   ├── VirtualSMC.kext
+    │   ├── NVMeFix.kext
     │   └── WhateverGreen.kext
     ├── OpenCore.efi
     ├── Tools
@@ -95,6 +97,7 @@ EFI
     │   ├── SMCSuperIO.kext
     │   ├── USBPorts.kext
     │   ├── VirtualSMC.kext
+    │   ├── NVMeFix.kext
     │   └── WhateverGreen.kext
     ├── OpenCore.efi
     ├── Tools
