@@ -1,6 +1,6 @@
-# Hackintosh Opencore 0.6.5 for Gigabyte Z390 Aorus Pro WiFi - macOS(>=10.15.2) 
+# Hackintosh Opencore 0.6.6 for Gigabyte Z390 Aorus Pro WiFi - macOS(>=10.15.2) 
 
-![System Info](images/hackintosh_combi_1606811274.png)
+![System Info](images/hackintosh_bigsur_1606811274.png)
 
 ### This guide is not intended for beginner, you have been warned. No support is provided unless there is a valid issue. Please read everything before starting
 
@@ -11,7 +11,7 @@ Type|Item
 **CPU** | [Intel - Core i5-9400](https://shopee.com.my/product/18799831/1830724338)
 **CPU Cooler** | [Cooler Master Hyper 212](https://shopee.com.my/product/27186464/1049199653) 
 **Motherboard** | [Gigabyte - Z390 AORUS PRO WiFi](https://shopee.com.my/product/18799831/1830724338)
-**Memory** | [Kingston HyperX FURY 16GB](https://shopee.com.my/product/44965307/1790719113)
+**Memory** | [Kingston HyperX FURY 32GB](https://shopee.com.my/product/44965307/1790719113)
 **Storage (macOS)** | [ADATA XPG SX8200 Pro 512GB](https://shopee.com.my/product/84969687/1883571808)
 **Storage (Windows)** | [KINGSTON A400 256GB](https://shopee.com.my/product/29242218/1103855234)
 **Video Card** | [SAPPHIRE PULSE RX 5700 XT OC](about:blank)

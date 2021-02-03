@@ -48,8 +48,6 @@ EFI
     │   ├── SSDT-HPET.aml
     │   ├── SSDT-PLUG.aml
     │   └── SSDT-PMC.aml
-    ├── Bootstrap
-    │   └── Bootstrap.efi
     ├── Drivers
     │   ├── HfsPlus.efi
     │   └── OpenRuntime.efi
@@ -82,8 +80,6 @@ EFI
     │   ├── SSDT-HPET.aml
     │   ├── SSDT-PLUG.aml
     │   └── SSDT-PMC.aml
-    ├── Bootstrap
-    │   └── Bootstrap.efi
     ├── Drivers
     │   ├── HfsPlus.efi
     │   └── OpenRuntime.efi
