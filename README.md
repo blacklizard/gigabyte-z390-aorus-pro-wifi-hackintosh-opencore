@@ -1,6 +1,6 @@
 # Hackintosh Opencore 0.6.7 for Gigabyte Z390 Aorus Pro WiFi - macOS(>=10.15.2) 
 
-![System Info](images/hackintosh_bigsur_1606811274.png)
+![System Info](images/system-1615314097.png)
 
 ### This guide is not intended for beginner, you have been warned. No support is provided unless there is a valid issue. Please read everything before starting
 
@@ -8,7 +8,7 @@
 
 Type|Item
 :----|:----
-**CPU** | [Intel - Core i5-9400](https://shopee.com.my/product/18799831/1830724338)
+**CPU** | [Intel - Core i9-9900K](about:blank)
 **CPU Cooler** | [Cooler Master Hyper 212](https://shopee.com.my/product/27186464/1049199653) 
 **Motherboard** | [Gigabyte - Z390 AORUS PRO WiFi](https://shopee.com.my/product/18799831/1830724338)
 **Memory** | [Kingston HyperX FURY 32GB](https://shopee.com.my/product/44965307/1790719113)
