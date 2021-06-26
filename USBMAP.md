@@ -33,7 +33,8 @@
 - HS12 - IT8297 - RGB Controller  
 - HS13 - Rear USB 2.0 (All 4 ports)
 
-Total of 15 ports, matching Apple's 15 port limit
+Total of 15 ports, matching Apple's 15 port limit. `USBPorts.kext` based on this configuration is included in this repo.
+
 
 #### Ports Location
 
