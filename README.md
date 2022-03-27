@@ -1,4 +1,4 @@
-# Hackintosh Opencore 0.7.4 for Gigabyte Z390 Aorus Pro WiFi - macOS(>=10.15.2) 
+# Hackintosh Opencore 0.7.9 for Gigabyte Z390 Aorus Pro WiFi - macOS(>=10.15.2) 
 
 ![System Info](images/system-1633416005.png)
 
